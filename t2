@@ -1,0 +1,55 @@
+
+.background{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.Male{
+    width: 250px;
+    height: 500px;
+    bottom: 0%;
+    left: 80%;
+    z-index: 1;
+    position: absolute;
+}
+.Female{
+    width: 250px;
+    height: 500px;
+    bottom: 0%;
+    left: 0%;
+    z-index: 1;
+    position: absolute;
+}
+.Dialog{
+    width: 300px;
+    height: 300px;
+    bottom: 0%;
+    left: 45%;
+    z-index: 2;
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Задание №2</title>
+        <link rel="stylesheet" type="text/css" href="styles3.css">
+    </head>
+    <body>
+        <img class="background" src="images/background_castle.png" alt="background_castle">
+        
+        <img class="Female" src="images/Female.png" alt="Female">
+        <img class="Dialog" src="images/Dialog.png" alt="Dialog">
+        <img class="Male" src="images/Male.png" alt="Male">
+    </body>
+</html>
