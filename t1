@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="UTF-8">
+        <title>Задание №1</title>
+    </head>
+    <header>
+        <div class="Top_name"> 
+            <h1 class="Top_text">Вход в аккаунт</h1>
+        </div>
+    </header>
+    <body>
+        <img class="Authorization_bacground" src="images/background.jpg" alt="background">
+        <h3 class="Center_text">Авторизация</h3>
+        <div>
+            <input class="input_box1" type="text" name="login" value="name">
+            <input class="input_box2" type="password" name="password" value="password">
+        </div>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+.Top_name{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.Top_text{
+    text-align: center;
+    color: white;
+}
+.Authorization_bacground{
+    width: 100%;
+    height: 100%;
+}
+.Center_text{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+}
+.input_box1{
+    top: 42%;
+    left: 50%;
+    z-index: 1;
+    position: absolute;
+}
+.input_box2{
+    top:  45%;
+    left: 50%;
+    z-index: 1;
+    position: absolute;
+}
